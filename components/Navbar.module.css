@@ -1,0 +1,31 @@
+.bar { position:fixed; top:0; left:0; right:0; z-index:100; background:rgba(250,246,239,0.94); backdrop-filter:blur(14px); border-bottom:1px solid transparent; transition:border-color .3s,box-shadow .3s; }
+.scrolled { border-bottom-color:var(--border); box-shadow:0 4px 28px rgba(184,151,42,0.08); }
+.inner { max-width:1280px; margin:0 auto; padding:0 32px; height:72px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+
+.logo { display:flex; flex-direction:column; line-height:1; gap:1px; }
+.lt { font-family:var(--disp); font-size:20px; font-weight:600; color:var(--dark); letter-spacing:4px; }
+.lb { font-size:9px; letter-spacing:5px; color:var(--gold); text-transform:uppercase; }
+
+.nav { display:flex; gap:36px; }
+.nl { font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--mid); position:relative; padding-bottom:4px; transition:color .2s; }
+.nl::after { content:''; position:absolute; bottom:0; left:0; width:0; height:1px; background:var(--gold); transition:width .3s; }
+.nl:hover, .active { color:var(--dark); }
+.nl:hover::after, .active::after { width:100%; }
+
+.right { display:flex; align-items:center; gap:12px; }
+.socials { display:flex; gap:8px; }
+.si { color:var(--mid); transition:color .2s; display:flex; align-items:center; }
+.si:hover { color:var(--gold); }
+.shopBtn { display:flex; align-items:center; gap:6px; font-size:11px; letter-spacing:2px; text-transform:uppercase; padding:10px 22px; background:var(--dark); color:var(--gold-pale); border-radius:30px; transition:background .25s,color .25s; }
+.shopBtn:hover { background:var(--gold); color:var(--dark); }
+.ham { display:none; background:none; border:none; color:var(--dark); }
+
+.mob { background:var(--cream); border-top:1px solid var(--border); padding:16px 32px 24px; display:flex; flex-direction:column; gap:4px; }
+.ml { font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--mid); padding:12px 0; border-bottom:1px solid var(--border); transition:color .2s; }
+.ml:hover { color:var(--gold); }
+.mobSoc { display:flex; gap:16px; padding-top:16px; }
+.mobSoc a { color:var(--mid); transition:color .2s; }
+.mobSoc a:hover { color:var(--gold); }
+
+@media (max-width:860px) { .nav, .socials, .shopBtn { display:none; } .ham { display:flex; } }
+@media (max-width:480px) { .inner { padding:0 20px; } }
