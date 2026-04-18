@@ -11,7 +11,7 @@ export default function ProductCard({ product, index = 0 }) {
   const [imgIdx, setImgIdx] = useState(0);
 
   const imgs  = product.images || [];
-  const price = product.price ? `$${Number(product.price).toLocaleString()}` : '';
+  const price = product.price ? `₹${Number(product.price).toLocaleString()}` : '';
 
   const handleAdd = () => {
     setAdded(true);
