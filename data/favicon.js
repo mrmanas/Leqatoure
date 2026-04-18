@@ -1,1 +1,1 @@
-<link rel="icon" href="/public/images/LOGO MANAS MISHRA.png" />
+<link rel="icon" href="images/LOGO MANAS MISHRA.png" />
