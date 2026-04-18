@@ -102,7 +102,7 @@ export const SITE = {
   social: {
     instagram: "https://instagram.com/leqatoure",
     twitter:   "https://twitter.com/leqatoure",
-    linkedin:  "https://linkedin.com/company/leqatoure",
+    linkedin:  "https://www.linkedin.com/company/leqa-toure",
   },
   contact: {
     address: "Noida, India",
