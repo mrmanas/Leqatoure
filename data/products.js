@@ -105,8 +105,8 @@ export const SITE = {
     linkedin:  "https://linkedin.com/company/leqatoure",
   },
   contact: {
-    address: "123 Luxury Lane, Milan, Italy",
-    email:   "hello@leqatoure.com",
-    phone:   "+39 02 1234 5678",
+    address: "Noida, India",
+    email:   "marshale2026@gmail.com",
+    phone:   "+39 02 xxxxxx",
   },
 };
