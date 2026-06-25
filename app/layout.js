@@ -25,6 +25,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+     {/* Bing Webmaster Verification */}
+        <meta name="msvalidate.01" content="9CA47A318B34DA4A71AF023F2FF485F1" />
         {/* 2. The hidden script goes here, away from your visible layout */}
         <script
           type="application/ld+json"
