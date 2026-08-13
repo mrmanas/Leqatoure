@@ -1,6 +1,6 @@
 export default function sitemap() {
   const baseUrl = "https://leqatoure.com";
-
+  
   return [
     {
       url: `${baseUrl}/`,
