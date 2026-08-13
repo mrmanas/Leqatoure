@@ -5,6 +5,9 @@ import Footer from '../components/Footer';
 export const metadata = {
   title: 'LEQA TOURE — Timeless Luxury Bags',
   description: 'Handcrafted luxury bags designed for the discerning individual who values quality and sophistication.',
+  icons: {
+  icon: '/images/icon.png',
+},
 };
 
 export default function RootLayout({ children }) {
